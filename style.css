@@ -1,0 +1,35 @@
+/* this is my style sheet */
+/*
+p {
+ color: #0033ff;background-color: #AD8793;
+}
+*/
+h1 {
+  color: #ffffff;
+ background-color: #FC78FC;
+}
+a {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #00ff00;
+ text-decoration: underline;
+}
+.spanstyle { color:#00ff00;
+}
+#divexample { color:#55C3BA;
+ background-color: #133835;
+}
+#specialid {
+  color:#000000;
+ background-color: #F9C2C2;
+}
+.specialp {
+ color: #689688;
+ background-color: #3C292F;
+}
+footer{color: #ffffff;
+background-color: #000000;
+  }
