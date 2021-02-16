@@ -1,0 +1,66 @@
+.customtext {
+font-family: Helvetica;Arial;font-style: normal;
+color: #ffffff;
+font-weight: normal;
+font-size: 14px;
+ width: 640px; }
+
+ .specialp {width: 300px;
+   text-align:right;
+   padding: 00px 100px 10px 100px;
+ }
+
+
+.spanstyle { color:#ff9900;
+}
+.spanstylesecond{font-weight:bold;
+}
+.spanstylethird{font-size: 8px;
+  font-weight:bold;
+}
+.textcenter {
+text-align: center;
+}
+h1 {
+  color: #ffffff;
+  font-size: 100px;
+  font-family: Impact;
+  color: #3399ff;
+}
+footer{color: #3399ff;
+  text-align: center;
+  font-size: 12px;
+
+  }
+  a {
+   color: #3399ff;
+    text-decoration: none;
+    font-weight: bold;
+    }
+  li a:hover {
+   color: #ff9900;
+   text-decoration: underline;
+    padding: 10px;
+  }
+
+.imgbox {
+padding: 10px 10px 10px 40px;
+}
+.pixelwidth {
+  border: 0px solid #ff0000;
+  width: 640px;
+}
+box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+
+    body { width: 640px; }
+
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 220px;
+        right: 0;
+        top: 60px; /* Adjust this value to move the positioned div up and
