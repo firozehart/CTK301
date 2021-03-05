@@ -16,22 +16,23 @@
   border: 1px solid #0000ff;
   background-color: #ffffff;
   margin: 10 px;
-  padding: 0em;
+  padding: em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background color:#0000ff;
 }
 .spanstyle { color:#ff0000;
+  font-weight: bold;
 }
 h1 {color: #b3d9ff;
 
-  font-family: helvetica;font-style: italic;
+  font-family: sans-serif;font-style: italic;
   font-weight: normal;
 }
 
 h2{ text-decoration:none;
   color: #0000ff;
-font-family:helvetica ;font-style:normal;
+font-family:sans-serif ;font-style:normal;
 font-weight: bold;
 margin: 20px;
 
@@ -43,9 +44,20 @@ margin: 20px;
   margin: 10px;
   background-color: #ffffff;
   width: 400px;
+  margin: 20px;
 }
+
+header {border: 1px solid blue;
+  grid-column: span 12;
+  border: border: 1px solid #0000ff;
+  background-color: #0000ff;
+background-image: linear-gradient(to bottom, #66a3ff,#0039e6, #3385ff);
+margin: 10 px;
+padding: 10 px;
+}
+
 nav ul {
-  color: #b3d9ff;
+  color: #0000ff;
   background-color:#4da6ff;
   list-style-type: none;
   margin: 10;
@@ -54,33 +66,28 @@ nav ul {
 
 
 nav li {
+  color: #0000ff;
   display: grid;
   padding: 12px;
   background-color: #4da6ff;
   margin: 10px;
-  background-image: linear-gradient(to bottom, #005c99,#80ccff, #1aa3ff,);
+  background-image: linear-gradient(to bottom, #66a3ff,#0039e6, #3385ff);
 }
 nav li a:hover {
   background-color: #990000;
-
-   background-image: linear-gradient(to bottom, #005c99,#80ccff, #1aa3ff,);
+  color: #0000ff;
+   background-image: linear-gradient(to bottom, #0066ff,#3385ff, #0052cc);
 }
 
-header {border: 1px solid blue;
-  grid-column: span 12;
-  border: border: 1px solid #0000ff;
-  background-color: #0000ff;
-
-}
 
 nav a {
- color:#b3d9ff;
+ color:#0000ff;
  text-decoration:none;
- font-family:helvetica ;
+ font-family:sans-serif ;
 text weight: bold;}
 
 nav a:visited {
- color: #ffffff;
+ color: #b3d9ff;
  text-decoration:none;
 
 }
@@ -90,31 +97,49 @@ nav li {
   border: 1px solid #0000ff;
   padding: 0px;
   margin: 0px;
-  background-image: linear-gradient(to bottom, #0000ff,   #1aa3ff, #80ccff,);
+  background-image: linear-gradient(to bottom, #66a3ff,#0039e6, #3385ff);
 }
 
 nav li a {
-  color: #ffffff;
+  color:#b3d9ff;
    display: block;
    padding: 10px;
    background-color;
    text-decoration: none;
-     background-color: : linear-gradient(to bottom, #0000ff,   #1aa3ff, #80ccff,);
+     background-color: : linear-gradient(to bottom,#00bfff ,#0039e6, #66a3ff);
 }
 nav a:hover {
- color: #0000ff;
+ color:#0080ff;
  text-decoration: underline;
- background-image: linear-gradient(to bottom, #0000ff,   #1aa3ff, #80ccff,);
+ background-image: linear-gradient(to bottom, #99c2ff,#0039e6, #3385ff);
 }
 
 nav {border: 0px solid blue;
   grid-column: span 3;
+
 }
 
 
+
+ a {
+ color: #b3d9ff;
+ text-decoration:none;
+ font-family:sans-serif;
+font-weight: normal;}
+
+ a:visited {
+ color: #b3d9ff;
+ text-decoration:underline;
+ font-weight:normal;
+}
+ a:hover {
+ color: #0000ff;
+ text-decoration: underline;
+}
+
 main {border: 0px solid blue;
   grid-column: span 12;
-  margin:10px
+  margin:10px;
 }
 
 body {
@@ -130,34 +155,18 @@ margin: 7px 0px 0px 0px;
 .textjustify {
 text-align: justify;
 }
-p { font-family:helvetica;
+p { font-family:serif;
   font-weight:bold;
   margin: 10px;
   padding: 20px;
 }
 
-.p1 { font-family:helvetica; font-weight: normal;
+.p1 { font-family:serif; font-weight: normal;
   }
 
 .p2 {
   clear: both;
   font-weight: normal;
-}
-
- a {
- color: #b3d9ff;
- text-decoration:none;
- font-family:helvetica;
-font-weight: normal;}
-
- a:visited {
- color: #b3d9ff;
- text-decoration:underline;
- font-weight:normal;
-}
- a:hover {
- color: #00ff00;
- text-decoration: underline;
 }
 
 .borderbottom {

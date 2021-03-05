@@ -22,94 +22,44 @@
   background color:#0000ff;
 }
 .spanstyle { color:#ff0000;
+  font-weight: bold;
 }
+
 h1 {color: #b3d9ff;
 
-  font-family: helvetica;font-style: italic;
+  font-family: sans-serif;font-style: italic;
   font-weight: normal;
+
 }
 
 h2{ text-decoration:none;
   color: #0000ff;
-font-family:helvetica ;font-style:normal;
+font-family:sans-serif;font-style:normal;
 font-weight: bold;
-margin: 20px;
+margin: 30px;
 
 }
 
 .floatimage {
   float: right;
   border: 3px solid #0000ff;
-  margin: 10px;
+  margin: 20px;
   background-color: #ffffff;
   width: 450px;
 }
-nav ul {
-  color: #b3d9ff;
-  background-color:#4da6ff;
-  list-style-type: none;
-  margin: 10;
-  padding: 0;
-}
 
 
-nav li {
-  display: grid;
-  padding: 12px;
-  background-color: #4da6ff;
-  margin: 10px;
-  background-image: linear-gradient(to bottom, #005c99,#80ccff, #1aa3ff,);
-}
-nav li a:hover {
-  background-color: #990000;
-
-   background-image: linear-gradient(to bottom, #005c99,#80ccff, #1aa3ff,);
-}
 
 header {border: 1px solid blue;
   grid-column: span 12;
   border: border: 1px solid #0000ff;
   background-color: #0000ff;
+  background-image: linear-gradient(to bottom, #66a3ff,#0039e6, #3385ff);
+
 
 }
 
-nav a {
- color:#b3d9ff;
- text-decoration:none;
- font-family:helvetica ;
-text weight: bold;}
 
-nav a:visited {
- color: #ffffff;
- text-decoration:none;
-
-}
-
-nav li {
-  display: inline-block;
-  border: 1px solid #0000ff;
-  padding: 0px;
-  margin: 0px;
-  background-image: linear-gradient(to bottom, #0000ff,   #1aa3ff, #80ccff,);
-}
-
-nav li a {
-  color: #ffffff;
-   display: block;
-   padding: 10px;
-   background-color;
-   text-decoration: none;
-     background-color: : linear-gradient(to bottom, #0000ff,   #1aa3ff, #80ccff,);
-}
-nav a:hover {
- color: #0000ff;
- text-decoration: underline;
- background-image: linear-gradient(to bottom, #0000ff,   #1aa3ff, #80ccff,);
-}
-
-nav {border: 0px solid blue;
-  grid-column: span 3;
-}
 
 
 main {border: 0px solid blue;
@@ -130,13 +80,13 @@ margin: 7px 0px 0px 0px;
 .textjustify {
 text-align: justify;
 }
-p { font-family:helvetica;
+p { font-family:serif;
   font-weight:bold;
   margin: 10px;
   padding: 20px;
 }
 
-.p1 { font-family:helvetica; font-weight: normal;
+.p1 { font-family:serif; font-weight: normal;
   }
 
 .p2 {
@@ -144,21 +94,6 @@ p { font-family:helvetica;
   font-weight: normal;
 }
 
- a {
- color: #b3d9ff;
- text-decoration:none;
- font-family:helvetica;
-font-weight: normal;}
-
- a:visited {
- color: #b3d9ff;
- text-decoration:underline;
- font-weight:normal;
-}
- a:hover {
- color: #00ff00;
- text-decoration: underline;
-}
 
 .borderbottom {
   border-bottom: 3px solid #0000ff;
@@ -174,4 +109,83 @@ font-weight: normal;}
   background-color: #ff0000;
 border: 3px solid #000000;
 margin: 0px;
+}
+nav ul {
+  color: #0000ff;
+  background-color:#4da6ff;
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+}
+
+
+nav li {
+  color: #0000ff;
+  display: grid;
+  padding: 12px;
+  background-color: #4da6ff;
+  margin: 10px;
+  background-image: linear-gradient(to bottom, #66a3ff,#0039e6, #3385ff);
+}
+nav li a:hover {
+  background-color: #990000;
+  color: #0000ff;
+   background-image: linear-gradient(to bottom, #0066ff,#3385ff, #0052cc);
+}
+
+
+nav a {
+ color:#0000ff;
+ text-decoration:none;
+ font-family:sans-serif ;
+text weight: bold;}
+
+nav a:visited {
+ color: #b3d9ff;
+ text-decoration:none;
+
+}
+
+nav li {
+  display: inline-block;
+  border: 1px solid #0000ff;
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(to bottom, #66a3ff,#0039e6, #3385ff);
+}
+
+nav li a {
+  color:#b3d9ff;
+   display: block;
+   padding: 10px;
+   background-color;
+   text-decoration: none;
+     background-color: : linear-gradient(to bottom,#00bfff ,#0039e6, #66a3ff);
+}
+nav a:hover {
+ color:#0080ff;
+ text-decoration: underline;
+ background-image: linear-gradient(to bottom, #99c2ff,#0039e6, #3385ff);
+}
+
+nav {border: 0px solid blue;
+  grid-column: span 3;
+}
+
+
+
+ a {
+ color: #b3d9ff;
+ text-decoration:none;
+ font-family:sans-serif;
+font-weight: normal;}
+
+ a:visited {
+ color: #b3d9ff;
+ text-decoration:underline;
+ font-weight:normal;
+}
+ a:hover {
+ color: #0000ff;
+ text-decoration: underline;
 }
