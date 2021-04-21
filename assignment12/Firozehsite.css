@@ -78,7 +78,9 @@ text-shadow: 1px 1px 2px #000; /* x, y, blur, color */
   border-top: 3px solid #000000;
   margin-top: 20px; padding: 20px;
 }
-
+iframe{grid-column: span 12; padding-left: 0px;
+  padding-top:36px;
+}
 .roundedbox {
   padding: 10px;
   width: 750px;
@@ -88,6 +90,7 @@ text-shadow: 1px 1px 2px #000; /* x, y, blur, color */
 font-family: 'Lobster', cursive;
   margin-left: 90px;
 }
+
 
 p1{ text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
 font-family: 'Lobster', cursive;}

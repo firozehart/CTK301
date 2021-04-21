@@ -39,6 +39,24 @@ nav li a {color: black;
   text-decoration: none;
     text-decoration: none;transition: color 1s;
 }
+main li a {color: black;
+  grid-column: span 12;
+  font-family: helvetica,Arial,sans-seri;
+  font-size: 20px; text transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+    transition: color 1s;
+    padding-left:120px;
+    padding-top: 0px;
+    padding-bottom: 36px;
+    text-decoration: none;list-style-type: none;
+}
+
+main li { text-decoration: none;list-style-type: none;
+  padding-bottom: 36px;
+}
+main ul { text-decoration: none;list-style-type: none;
+padding-left: 0px;}
 
 ul {grid-column: span 12;
   display: grid;
@@ -46,10 +64,17 @@ ul {grid-column: span 12;
   padding: 24px;
   padding-left: 130px;
 }
+main li a:hover {
+color: #735a96;
+text-decoration: underline;
+}
+
+main a{text-decoration: none;}
 nav li a:hover {
 color: #735a96;
 text-decoration: underline;
 }
+
 
 main{grid-column: span 11;
 
@@ -81,17 +106,18 @@ font-weight: bold;
 
 .p1 { font-family:helvetica,Arial,sans-serif;
   font-weight: bold;
-  padding-top: 70px;
+  padding-top: 20px;
   margin-top: 50px;
   text-align: justify;}
 
 .p2 {font-family:helvetica,Arial,sans-serif;
-  clear:both;text-align: justify;
+  clear:both;
   font-weight: bold;
   font-size: 20px;
   padding-left: 120px;
   padding-top: 36px;
   text-align:left;
+  text-decoration: none;
 }
 .roundedbox {
   padding: 10px;
@@ -102,3 +128,7 @@ font-weight: bold;
 font-family: 'Lobster', cursive;
   margin-left: 230px;
 }
+h3{font-family: helvetica,Arial,sans-serif;
+  font-size: 20px;
+  margin-left:130px;
+  margin-top: 36px;}

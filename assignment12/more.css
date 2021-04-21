@@ -1,7 +1,6 @@
 body {
   background-color: #999999;
   font-family: helvetica,Arial,sans-seri;
-
 }
 
 #wrapper {
@@ -21,7 +20,10 @@ h1{font-family: helvetica,Arial,sans-serif;
   margin-left: 180px;
   margin-top: 36px;
 }
-
+h2{font-family: helvetica,Arial,sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 36px;}
 
 header{grid-column: span 12;
 font-family: helvetica,Arial,sans-serif;
@@ -91,7 +93,12 @@ text-shadow: 1px 1px 2px #000; /* x, y, blur, color */
 font-family: 'Lobster', cursive;
   margin-left: 90px;
 }
+p{padding-left: 50px;
+  font-family: helvetica,Arial,sans-seri;}
 
+iframe{grid-column: span 12; padding-left: 50px;
+  padding-top:30px;
+}
 p1{ text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
 font-family: 'Lobster', cursive;}
 
