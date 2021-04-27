@@ -39,16 +39,16 @@ nav li a {color: black;
   text-decoration: none;
     text-decoration: none;transition: color 1s;
 }
-main li a {color: black;
+main a {color: black;
   grid-column: span 12;
   font-family: helvetica,Arial,sans-seri;
   font-size: 20px; text transform: uppercase;
   font-weight: bold;
   text-decoration: none;
     transition: color 1s;
-    padding-left:120px;
+    padding-left:0px;
     padding-top: 0px;
-    padding-bottom: 36px;
+    padding-bottom: 50px;
     text-decoration: none;list-style-type: none;
 }
 
@@ -64,7 +64,7 @@ ul {grid-column: span 12;
   padding: 24px;
   padding-left: 130px;
 }
-main li a:hover {
+main a:hover {
 color: #735a96;
 text-decoration: underline;
 }
